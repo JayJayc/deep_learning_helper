@@ -64,7 +64,11 @@ def tabu_update(tabu_list, identifier):
     else:
         assert False
     return tabu_list
-    
+
+# Special symbols
+SOS_token = "SOS"  # start of sentence
+EOS_token = "EOS"  # end of sentence
+PAD_token = SOS_token  # padding symbol
 class Lang:
     # Class for converting strings/words to numerical indices, and vice versa.
     #  Should use separate class for input language (English) and output language (actions)
