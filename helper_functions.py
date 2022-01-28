@@ -1,3 +1,5 @@
+import tensorflow as tf
+
 class ShapeChecker():
   def __init__(self):
     # Keep a cache of every axis-name seen
